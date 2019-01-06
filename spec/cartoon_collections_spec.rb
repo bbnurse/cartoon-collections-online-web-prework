@@ -19,7 +19,7 @@ describe "Cartoon Collections" do
 
   describe "#summon_captain_planet" do
     it "returns an array with the same number of elements that it was given" do
-      veggies = ["carrot", "cucumber", "pepper"]
+      
       result = summon_captain_planet(veggies)
       expect(result.class).to eq(Array)
       expect(result.length).to eq(3)
