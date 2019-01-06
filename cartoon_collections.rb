@@ -7,8 +7,8 @@ def roll_call_dwarves(dwarfs)# code an argument here
 end
 
 
-def summon_captain_planet(planeteer_calls)
-  planeteer_calls.collect do |call|
+def summon_captain_planet(veggies)
+  veggies.collect do |call|
     call.capitalize << "!"
   end
 end
