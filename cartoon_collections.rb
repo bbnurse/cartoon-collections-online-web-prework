@@ -10,7 +10,7 @@ def summon_captain_planet(planeteer_calls)
   #planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
   planeteer_calls.collect do |x|
     x + 1
-  end  
+  end
 end
 
 def long_planeteer_calls# code an argument here
